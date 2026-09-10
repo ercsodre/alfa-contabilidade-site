@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfa Contabilidade — Inteligência para o seu negócio</title>
+<meta name="description" content="Contabilidade estratégica há mais de 15 anos. Planejamento tributário, sucessório, financeiro e transações rurais. Fale com a Alfa Contabilidade.">
+<link rel="icon" type="image/png" href="assets/logo-principal.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+  <img src="assets/logo-principal.png" alt="" class="loader__mark">
+</div>
+
+<div class="grain"></div>
+
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <img src="assets/logo-principal.png" alt="Alfa Contabilidade" class="nav__logo">
+      <span>Alfa <b>Contabilidade</b></span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#acreditamos">Valores</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="icon-btn" href="https://www.instagram.com/alfacontabilidadebi/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="icon-btn" href="https://wa.me/5562999589437" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32" width="17" height="17" fill="currentColor"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.5.7 4.9 2 7L3 29l6.5-2.2c2 1.1 4.2 1.7 6.5 1.7 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.1c-2.1 0-4.1-.6-5.8-1.6l-.4-.2-4.1 1.4 1.4-4-.3-.4a10.4 10.4 0 0 1-1.7-5.6C5.1 9.6 10 4.7 16 4.7S26.9 9.6 26.9 15.7 22 26.1 16 26.1zm5.9-7.7c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+      </a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__parallax" id="parallax">
+      <div class="mesh-blob mesh-blob--1"></div>
+      <div class="mesh-blob mesh-blob--2"></div>
+      <div class="mesh-blob mesh-blob--3"></div>
+      <svg class="hero__arc hero__arc--1" data-speed="0.15" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="300" cy="300" r="280" fill="none" stroke="url(#g1)" stroke-width="1.5" opacity="0.35"/>
+        <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6FD1EE"/><stop offset="1" stop-color="#0B3A6B" stop-opacity="0"/></linearGradient></defs>
+      </svg>
+      <svg class="hero__arc hero__arc--2" data-speed="0.35" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 550 300 A 250 250 0 1 1 300 50" fill="none" stroke="#6FD1EE" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+      </svg>
+      <svg class="hero__arc hero__arc--3" data-speed="0.5" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="300" cy="300" r="180" fill="none" stroke="#1C6FB0" stroke-width="1" opacity="0.5" stroke-dasharray="4 10"/>
+      </svg>
+      <div class="hero__glow" data-speed="0.2"></div>
+      <div class="hero__bars" data-speed="0.25" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div class="hero__grid">
+      <div class="hero__text">
+        <p class="kicker scramble reveal">Alfa Contabilidade · Business Intelligence</p>
+        <h1 class="hero__title">
+          <span class="reveal" style="--d:0">Inteligência</span>
+          <span class="reveal" style="--d:1">para o seu</span>
+          <span class="reveal reveal--accent" style="--d:2">negócio.</span>
+        </h1>
+        <p class="hero__sub reveal" style="--d:3">Há mais de 15 anos transformando números em estratégia — planejamento tributário, sucessório, financeiro e de transações rurais, com ética e técnica apurada.</p>
+
+        <div class="hero__cta reveal" style="--d:4">
+          <a href="https://wa.me/5562999589437" target="_blank" rel="noopener" class="btn btn--solid btn--lg">Fale conosco</a>
+          <a href="#servicos" class="btn btn--outline btn--lg">Conheça os serviços</a>
+        </div>
+
+        <div class="hero__stats reveal" style="--d:5">
+          <div class="stat">
+            <span class="stat__num" data-count="15" data-suffix="+">0</span>
+            <span class="stat__label">anos de mercado</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="800" data-prefix="R$" data-suffix="M+">0</span>
+            <span class="stat__label">sob gestão</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="5" data-decimal="1" data-suffix="">0</span>
+            <span class="stat__label">avaliação no Google</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__stageOuter">
+        <div class="hero__stage" id="stage3d">
+          <div class="stage3d__scene" id="scene3d">
+            <div class="stage3d__layer stage3d__layer--glow"></div>
+            <img src="assets/logo-principal.png" class="stage3d__layer stage3d__layer--logo" alt="">
+            <div class="stage3d__layer stage3d__layer--shine"></div>
+          </div>
+        </div>
+        <span class="stage3d__hint" id="stageHint">mova o mouse</span>
+      </div>
+    </div>
+
+    <a href="#quem-somos" class="hero__scroll"><span></span>role para descobrir mais</a>
+  </section>
+
+  <section id="quem-somos" class="about" data-logo-mode="light" data-logo-dock="right">
+    <div class="about__inner">
+      <div class="about__text">
+        <p class="eyebrow scramble reveal">Quem somos</p>
+        <blockquote class="reveal">“Há 15 anos, nascemos da visão da nossa sócia, Edinamar: uma contabilidade mais eficiente e estratégica. Com o passar do tempo, fomos nos especializando até nos tornarmos referência no nosso mercado.”</blockquote>
+
+        <div class="timeline reveal">
+          <div class="timeline__item">
+            <span class="timeline__dot"></span>
+            <div>
+              <b>Fundação</b>
+              <p>A contadora Edinamar funda a Alfa com a visão de uma contabilidade mais eficiente e estratégica.</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__dot"></span>
+            <div>
+              <b>2024 — União de bases</b>
+              <p>O contador Pauluann e a contadora Edinamar unem suas bases, ampliando a capacidade de atendimento e a estrutura da operação.</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__dot"></span>
+            <div>
+              <b>Hoje</b>
+              <p>Estrutura sólida, métodos e processos eficientes, +R$800M sob gestão e atendimento cada vez mais próximo, estratégico e de excelência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__partners reveal">
+        <div class="partner-card">
+          <div class="partner-card__avatar">
+            <span>EM</span>
+            <img src="assets/team/edinamar.jpg" alt="Edinamar" loading="lazy" onerror="this.remove()">
+          </div>
+          <b>Edinamar</b>
+          <span>Sócia-fundadora · Contadora</span>
+        </div>
+        <div class="partner-card">
+          <div class="partner-card__avatar">
+            <span>PL</span>
+            <img src="assets/team/pauluann.jpg" alt="Pauluann" loading="lazy" onerror="this.remove()">
+          </div>
+          <b>Pauluann</b>
+          <span>Sócio · Contador</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="acreditamos" class="values" data-logo-mode="dark" data-logo-dock="left">
+    <div class="mesh-blob mesh-blob--1 is-subtle"></div>
+    <div class="mesh-blob mesh-blob--3 is-subtle"></div>
+    <p class="eyebrow scramble reveal center">No que acreditamos</p>
+    <h2 class="reveal center">Ética, técnica apurada e foco total no cliente guiam cada decisão que tomamos.</h2>
+
+    <div class="values__grid">
+      <div class="value-card reveal" style="--d:0">
+        <div class="value-card__icon">⚖</div>
+        <b>Ética</b>
+        <p>Relação de confiança acima de qualquer resultado de curto prazo.</p>
+      </div>
+      <div class="value-card reveal" style="--d:1">
+        <div class="value-card__icon">◎</div>
+        <b>Técnica apurada</b>
+        <p>Métodos e processos eficientes, atualizados com a legislação e o mercado.</p>
+      </div>
+      <div class="value-card reveal" style="--d:2">
+        <div class="value-card__icon">◈</div>
+        <b>Foco no cliente</b>
+        <p>Atendimento próximo, estratégico e de excelência — não um número de processo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="services" data-logo-mode="light" data-logo-dock="right">
+    <p class="eyebrow scramble reveal center">Como trabalhamos</p>
+    <h2 class="reveal center">Atuamos com planejamento tributário, sucessório e financeiro, para proteger o negócio do cliente e apoiar o seu crescimento.</h2>
+
+    <div class="services__grid">
+      <article class="service-card reveal" style="--d:0" data-service="Abertura de empresa">
+        <span class="service-card__index">01</span>
+        <h3>Abertura de empresa</h3>
+        <p>Toda a documentação certa, sem atropelos e sem risco de erro logo no início.</p>
+        <span class="service-card__cta">Solicitar orçamento →</span>
+      </article>
+      <article class="service-card reveal" style="--d:1" data-service="Folha de pagamento">
+        <span class="service-card__index">02</span>
+        <h3>Folha de pagamento</h3>
+        <p>Cuidamos da folha com precisão, mantendo sua equipe em dia e a empresa longe de problemas trabalhistas.</p>
+        <span class="service-card__cta">Solicitar orçamento →</span>
+      </article>
+      <article class="service-card reveal" style="--d:2" data-service="Planejamento tributário">
+        <span class="service-card__index">03</span>
+        <h3>Planejamento tributário</h3>
+        <p>Estruturamos o planejamento tributário do seu negócio para reduzir o imposto pago dentro da lei.</p>
+        <span class="service-card__cta">Solicitar orçamento →</span>
+      </article>
+      <article class="service-card reveal" style="--d:3" data-service="Planejamento sucessório">
+        <span class="service-card__index">04</span>
+        <h3>Planejamento sucessório</h3>
+        <p>Organizamos a sucessão da empresa com antecedência, protegendo o patrimônio e a continuidade do negócio.</p>
+        <span class="service-card__cta">Solicitar orçamento →</span>
+      </article>
+      <article class="service-card reveal" style="--d:4" data-service="Transações rurais">
+        <span class="service-card__index">05</span>
+        <h3>Transações rurais</h3>
+        <p>Suporte contábil especializado em transações rurais, um segmento que exige atenção própria.</p>
+        <span class="service-card__cta">Solicitar orçamento →</span>
+      </article>
+      <article class="service-card reveal" style="--d:5" data-service="Consultoria financeira">
+        <span class="service-card__index">06</span>
+        <h3>Consultoria financeira</h3>
+        <p>Apoiamos decisões mais seguras sobre o futuro do seu negócio.</p>
+        <span class="service-card__cta">Solicitar orçamento →</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="banner" data-logo-mode="light" data-logo-dock="left">
+    <div class="banner__arc" aria-hidden="true"></div>
+    <p class="reveal center">Precisa de uma contabilidade que pense no crescimento do seu negócio?</p>
+    <a href="https://wa.me/5562999589437" target="_blank" rel="noopener" class="btn btn--outline-inverse btn--lg reveal">Fale conosco</a>
+  </section>
+
+  <section id="contato" class="location" data-logo-mode="dark" data-logo-dock="right">
+    <div class="mesh-blob mesh-blob--2 is-subtle"></div>
+    <div class="location__inner">
+      <div class="location__info reveal">
+        <p class="eyebrow scramble">Atendemos com excelência em nossa unidade</p>
+        <h2>Agende uma visita ou fale com nossa equipe pelo WhatsApp.</h2>
+
+        <ul class="contact-list">
+          <li>
+            <span>Endereço</span>
+            <p>Rua 2, Nº 80, QD K, LT 18, 1º andar — Água Branca, Goiânia - GO, CEP 74723-190</p>
+          </li>
+          <li>
+            <span>E-mail</span>
+            <p><a href="mailto:diretoria@contabalfa.com.br">diretoria@contabalfa.com.br</a></p>
+          </li>
+          <li>
+            <span>Telefones</span>
+            <p><a href="tel:+556232138350">(62) 3213-8350</a> · <a href="tel:+5562999635400">(62) 9 9963-5400</a></p>
+          </li>
+          <li>
+            <span>WhatsApp</span>
+            <p><a href="https://wa.me/5562999589437" target="_blank" rel="noopener">(62) 99958-9437</a></p>
+          </li>
+        </ul>
+
+        <div class="rating reveal">
+          <span class="rating__stars">★★★★★</span>
+          <span>5,0 no Google · 3 avaliações</span>
+        </div>
+      </div>
+
+      <div class="location__map reveal">
+        <iframe
+          title="Localização Alfa Contabilidade"
+          src="https://www.google.com/maps?q=Rua+2,+80,+QD+K,+LT+18,+%C3%81gua+Branca,+Goi%C3%A2nia+-+GO,+74723-190&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a href="#top" class="footer__brand">
+      <img src="assets/logo-principal.png" alt="Alfa Contabilidade">
+      <span>Alfa <b>Contabilidade</b></span>
+    </a>
+
+    <nav class="footer__links">
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#acreditamos">Valores</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="https://www.instagram.com/alfacontabilidadebi/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/5562999589437" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© <span id="year"></span> Alfa Contabilidade. Todos os direitos reservados.</span>
+    <span class="footer__credit">Site desenvolvido por Erick</span>
+  </div>
+</footer>
+
+<a class="whatsapp-fab" href="https://wa.me/5562999589437" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.5.7 4.9 2 7L3 29l6.5-2.2c2 1.1 4.2 1.7 6.5 1.7 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.1c-2.1 0-4.1-.6-5.8-1.6l-.4-.2-4.1 1.4 1.4-4-.3-.4a10.4 10.4 0 0 1-1.7-5.6C5.1 9.6 10 4.7 16 4.7S26.9 9.6 26.9 15.7 22 26.1 16 26.1zm5.9-7.7c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<div class="modal" id="serviceModal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button type="button" class="modal__close" data-close aria-label="Fechar">×</button>
+    <p class="modal__eyebrow">Solicitar orçamento</p>
+    <h3 class="modal__title" id="modalTitle">Serviço</h3>
+    <form id="serviceForm">
+      <div class="modal__field">
+        <label for="svcName">Seu nome</label>
+        <input type="text" id="svcName" name="nome" required placeholder="Como podemos te chamar?">
+      </div>
+      <div class="modal__field">
+        <label for="svcDesc">O que você precisa?</label>
+        <textarea id="svcDesc" name="descricao" rows="4" required placeholder="Descreva rapidamente sua necessidade"></textarea>
+      </div>
+      <button type="submit" class="btn btn--solid btn--lg modal__submit">Ir para o WhatsApp</button>
+    </form>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
